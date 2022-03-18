@@ -1,0 +1,28 @@
+{
+  "name": "elementcreator",
+  "exports": {
+    ".": {
+        "import": "./lib/module.js",
+        "require": "./lib/module.js"
+    }
+  },
+  "description": "The simple module that allows you to create an HTML div element and connect child elements to it",
+  "version": "1.0.0",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "DOM"
+  ],
+  "author": "adustin21",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "jsdom": "^19.0.0"
+  }
+}
