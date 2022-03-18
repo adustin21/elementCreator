@@ -1,5 +1,5 @@
 {
-  "name": "elementcreator",
+  "name": "@adustin21/elementcreator",
   "exports": {
     ".": {
         "import": "./lib/module.js",
@@ -8,6 +8,13 @@
   },
   "description": "The simple module that allows you to create an HTML div element and connect child elements to it",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adustin21/elementCreator"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "directories": {
     "test": "tests"
   },
