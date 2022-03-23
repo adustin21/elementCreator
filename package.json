@@ -12,9 +12,11 @@
     "type": "git",
     "url": "https://github.com/adustin21/elementCreator"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "files": [
+    "lib/*",
+    "package.json",
+    "README.md"
+  ]
   "directories": {
     "test": "tests"
   },
