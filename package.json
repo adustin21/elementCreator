@@ -16,7 +16,7 @@
     "lib/*",
     "package.json",
     "README.md"
-  ]
+  ],
   "directories": {
     "test": "tests"
   },
