@@ -1,19 +1,22 @@
 {
   "name": "@adustin21/elementcreator",
   "exports": {
-    ".": {
+    "module": {
         "import": "./lib/module.js",
         "require": "./lib/module.js"
     }
   },
+  "main": "./index.js",
   "description": "The simple module that allows you to create an HTML div element and connect child elements to it",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/adustin21/elementCreator"
   },
   "files": [
     "lib/*",
+    "index.js",
+    "d.ts",
     "package.json",
     "README.md"
   ],
