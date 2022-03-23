@@ -6,15 +6,27 @@ and that is parent to elements passing in second argument.
 
 Throws Error if first argument isn't string or array of strings and second argument isn't array of strings 
 and/or callbacks returning HTMLElement
+
+## installing
+
+```
+npm install git+https://github.com/adustin21/elementCreator.git
+```
+
 ## usage
 
-Add package to your modules' folder and import `elementCreator` function
+By default, the module is imported as an es6 module:
 
 ```
-import { elementCreator } from "./modules/elementCreator";
+import { elementCreator } from "@adustin21/elementcreator";
 ```
+If you need CommonJS module use:
 ```
-const { elementCreator } = require("./modules/elementCreator");
+const { elementCreator } = require("@adustin21/elementcreator/module");
+```
+also
+```
+import { elementCreator } from "@adustin21/elementcreator/module";
 ```
 
 ## example
